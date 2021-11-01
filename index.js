@@ -477,8 +477,12 @@ var eatsAnimals = true;
  * - (false, false, undefined)
  */
 
+let eatsPlants = true;
+let eatsAnimals = false;
 
+let catergory = eatsPlants&&eatsAnimals? "omnivore": !eatsPlants&& eatsAnimals? "carnivore":eatsPlants&& !eatsAnimals? "herbivore":"Undefined";
 
+console.log(catergory);
 
 
 

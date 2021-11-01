@@ -551,8 +551,6 @@ switch (education){
     case "Doctoral degree":
     console.log('In 2015, a person with ' + education +  ' earns an average of  $84,396/year')
     break
-  default:
-    console.log('Please enter a correct certificate')
 } 
 
 
